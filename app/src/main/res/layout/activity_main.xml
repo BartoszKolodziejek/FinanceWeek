@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.org.progress.financeweek.MainActivity">
+
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/a2"
+     android:scaleType="fitStart"
+    android:id="@+id/plakat"/>
+    <TextView
+        style="@style/TextAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Zarejestruj się"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:background="@color/colorField"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="6dp"
+        android:onClick="rejestracja"
+
+        />
+    <TextView
+        style="@style/TextAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Zaloguj się"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:background="@color/colorField1"
+        android:id="@+id/textView2"
+        android:padding="6dp"
+        android:onClick="logowanie"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        style="@style/TextAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Szkolenia"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:background="@color/colorField2"
+        android:layout_above="@+id/textView3"
+        android:id="@+id/textview4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="6dp"
+        android:onClick="szkolenia"/>
+    <TextView
+        style="@style/TextAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Prelekcja"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:background="@color/colorField3"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView3"
+        android:padding="6dp"
+        android:onClick="prelekcja"/>
+    <TextView
+        style="@style/TextAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="partnerzy"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:background="@color/colorField4"
+        android:id="@+id/textView4"
+        android:padding="6dp"
+        android:onClick="partnerzy"
+        android:layout_above="@+id/textview4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.org.progress.financeweek.Prelekcja"
+    android:orientation="vertical"
+    android:weightSum="1">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/a17842157_1388402394549662_952166994_n"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRELEKCJA - ZDZISŁAW SOKAL
+Środa: 10 maja | start: 12:00
+Wydział Ekonomiczno-Socjologiczny
+
+Podczas tegorocznej edycji mamy zaszczyt gościć Prezesa Zarządu Bankowego Funduszu Gwarancyjnego Zdzisława Sokala, który przeprowadzi prelekcję pt. „Resolution jako narzędzie stabilności finansowej”. Wzięcie udziału w tym wydarzeniu to szansa spotkania się z praktykiem oraz polskim ekonomistą, który z branżą finansową jest związany od 23 lat. Resolution to nowe podejście do banków zagrożonych upadłością. Anglojęzyczny termin tłumaczony jest jako restrukturyzacja lub uporządkowana likwidacja."
+        style="@style/TextAppearance"/>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="facebook"
+        android:src="@drawable/facebook256" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Zapisz się"
+        style="@style/TextAppearance"
+        android:background="@color/colorField1"
+        android:onClick="prelekcjaRejestracja"/>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.org.progress.financeweek">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/a2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/a2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Szkolenia"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Prelekcja"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Logowanie"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Rejestracja"
+            android:screenOrientation="portrait" />
+        <activity android:name=".OSzkoleniach"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Rejestracja_na_szkolenia"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"
+                    android:screenOrientation="portrait" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Partnerzy"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"
+                    android:screenOrientation="portrait" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Moje_szkolenia"
+            android:screenOrientation="portrait" ></activity>
+    </application>
+
+</manifest>

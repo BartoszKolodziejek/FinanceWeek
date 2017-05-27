@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pl.org.progress.financeweek.OSzkoleniach"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/a17842157_1388402394549662_952166994_n" />
+
+
+<com.github.barteksc.pdfviewer.PDFView
+    android:layout_width="match_parent"
+    android:layout_height="359dp"
+    android:id="@+id/pdfView"
+    android:onClick="pdf"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Zapisz się!"
+        style="@style/TextAppearance"
+        android:onClick="rejeracja"
+        android:id="@+id/textView"
+       />
+</LinearLayout>
